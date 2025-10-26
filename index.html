@@ -714,7 +714,7 @@ ${cart.map(item => `${item.name}\n規格：${item.description}\n數量：${item.
 
                 // 嘗試透過開新視窗的方式送出（避免 CSP 限制）
                 try {
-                    const scriptUrl = 'https://script.google.com/macros/s/AKfycbxZgPC-7On8D65WueB_v0jfwRYu02wUzngxJn6G17BNopbVRKSa5WP6P8J0tOGh4vY_pw/exec';
+                    const scriptUrl = 'https://script.google.com/macros/s/AKfycbySmYOQ3IrPudjDexKfxVkGzMlw9FghLU00ywCf0Jo77QaEevgx0rmYcDCKrimu7ulH/exec';
                     const params = new URLSearchParams({
                         data: JSON.stringify(orderData)
                     });
